@@ -14,5 +14,5 @@ def find_mean_std(num1, num2, num3):
     mean = find_mean(num1, num2, num3)
     n=3
     mean = find_mean(num1, num2, num3)
-    std = ((num1-mean)**2+(num2-mean)**2+(num3-mean)**2)/n
+    std = ((num1-mean)**2+(num2-mean)**2+(num3-mean)**2)/n **0.5
     return mean,std
